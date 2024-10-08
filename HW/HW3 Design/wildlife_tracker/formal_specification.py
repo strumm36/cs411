@@ -1,5 +1,12 @@
 from typing import Any, List, Optional
 
+from animal_management.animal import Animal
+from animal_management.animal_manager import AnimalManager
+from habitat_management.habitat_manger import HabitatManager
+from habitat_management.habitat import Habitat
+from migration_tracking.migration import Migration
+from migration_tracking.migration import Migration
+from migration_tracking.migration_path import MigrationPath
 
 age: Optional[int] = None
 animal_id: int
